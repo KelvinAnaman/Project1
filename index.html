@@ -1,0 +1,268 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>    
+      <meta charset="utf-8">    
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+ 
+         <title>Kawolegal Dashboard</title> 
+             <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+             <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
+            <link rel="stylesheet" href="richtext.min.css">
+
+             <!--[if lt IE 9]>   
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>      
+             	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    
+             <![endif]--> 
+   </head> 
+  <body>
+      <div class="navbar navbar-default ">   
+  	   <div class="container-fluid">        
+  	   	<div class="navbar-header">          
+  	   		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">            
+  	   			<span class="icon-bar"></span>           
+  	   			 <span class="icon-bar"></span>            
+  	   			 <span class="icon-bar"></span>          
+  	   		</button>          
+  	   			<a class="navbar-brand" href="#"> <img src="images/kawolegal.png" alt="kawolegallogo"></a>       
+  	    </div> 
+
+        	   	<div class="collapse navbar-collapse" id="mynavbar-content">
+                  <ul class=" navbar-nav  navbar-items">
+                     <li><a id="dashboard"href="#">Dashboard</a></li>
+                     <li><a id="startup"href="#">Add startup</a></li>
+                     <li><a id="details"href="#">Startup details</a></li>
+                  </ul>
+
+                <ul class="navbar-nav navbar-items2">
+                   <li><a id="welcome" href="#"><span>Welcome,Admin</span></a>
+                   <li><a id="logout"href="#"><span>Logout</span></a></li>
+                 </ul>
+              </div>
+            </div> 
+       
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Add startup
+                    <span class="caret"></span>
+                  </button>
+                        <h3>Add Startup</h3>
+      </div>
+      <span class="glyphicon glyphicon-plus"></span>
+          <span class="glyphicon gyphicon-plus glyphicon5 "></span>
+
+      <div class="well"><p><strong>Dashboard</strong>  <span class= "space" style="margin-left: 10px;"> Add startups </span> </p> 
+      </div>
+                    
+                    <!--list group starts here-->
+              <ul class="list-group">
+                  <li class="list-group-item">Dashboard</li>
+                  <li class="list-group-item list-group2">Add startup</li>
+                  <li class="list-group-item list-group3">Startup details</li>
+              </ul>
+
+                  <span class="glyphicon glyphicon3 glyphicon-cog"></span>
+                  <span class="glyphicon glyphicon4 glyphicon-list-alt "></span>
+
+                   
+ <!--first panel starts here-->
+    <div class="panel panel-default">
+        <div class="panel-heading"style="color: white; background-color:#e74646;font-size: 17px">Add Startup</div>
+           <div class="panel-body">
+                <p style="margin-left: -3px">Personal Information:</p>
+                                       
+                                        <!--form starts here-->
+            <form class="form">
+              <div class="form-group">
+                <label for="nameField">Name</label>
+                   <input type="text" class="form-control" id="nameField"placeholder="Your Name" />
+              </div>
+               <div class="form-group">
+                 <label for="emailField">Email</label>
+                  <input type="email" class="form-control" id="emailField"placeholder="Your Email" />
+               </div>
+                <div class="form-group">
+                  <label for="phoneField">Password</label>
+                   <input type="text" class="form-control" id="phoneField"placeholder="Your Password" />
+                </div>
+          </form> 
+      <p style="margin-left: -3px;font-size: 14px; margin-top:30px">Startup Information:</p> 
+
+                                 <!--second form starts here-->
+        <form class="form">             
+            <div class="form-group">
+              <label for="nameField">Business Name</label>
+               <input type="text" class="form-control" id="nameField"placeholder="Name of Startup" />
+           </div>
+          <div class="form-group">
+            <label for="emailField">Business Location</label>
+              <input type="email" class="form-control" id="emailField"placeholder="Location of Startup" />
+         </div>
+           <div class="form-group">
+            <label for="phoneField">Business Website</label>
+             <input type="text" class="form-control" id="phoneField"placeholder="Website" />
+          </div>
+           <div class="form-group">
+            <label for="phoneField">Phone</label>
+             <input type="text" class="form-control" id="phoneField"placeholder=" Phone Number" />
+          </div>
+           <div class="form-group">
+            <label for="phoneField">Facebook </label>
+              <input type="text" class="form-control" id="phoneField"placeholder="Facebook url" />
+          </div>
+           <div class="form-group">
+            <label for="phoneField">Twitter</label>
+              <input type="text" class="form-control" id="phoneField"placeholder="Twitter url" />
+          </div>
+            <div class="form-group">
+             <label for="phoneField">Linkedin</label>
+              <input type="text" class="form-control" id="phoneField"placeholder="Linkedin url" />
+           </div>
+            <div class="form-group">
+              <label for="phoneField">Market/Industry</label>
+                <input type="text" class="form-control" id="phoneField"placeholder="e.g Real Estate" />
+            </div>
+      </form> 
+                                           <!--form ends here-->
+            <p style="margin-left: -3px"><strong>Brief description /overview</strong></p>
+              </div>
+               <textarea name="my textarea" id="mytextarea"></textarea>
+               <p><strong>Business Logo</strong></p>
+               <a href="#" class="thumbnail"> <img src="#"></a>
+               <a href="#" class="btn btn-default btn-sm btn-photo">Upload photo</a>
+               <p style="margin-top: 15px">Founder Information</p>
+               <p style="margin-top: 10px">--Founder 1--</p>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col1">
+                    <form class="form">
+                      <div class="form-group1">
+                        <label for="nameField">Full Name</label>
+                        <input type="text" class="form-control" id="nameField"placeholder="Your Full Name" />
+                       </div>
+                      <div class="form-group1">
+                        <label for="emailField">Facebook</label>
+                          <input type="email" class="form-control" id="emailField" placeholder="Facebook url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Twitter</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Twitter url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Linkden</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Linkedin url" />
+                      </div>
+                  </form>
+                  <p style="margin-top: 20px">--Founder 2--</p>
+                  <form class="form">
+                      <div class="form-group1">
+                        <label for="nameField">Full Name</label>
+                        <input type="text" class="form-control" id="nameField"placeholder="Your Full Name" />
+                      </div>
+                      <div class="form-group1">
+                        <label for="emailField">Facebook</label>
+                          <input type="email" class="form-control" id="emailField" placeholder="Facebook url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Twitter</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Twitter url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Linkden</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Linkedin url" />
+                      </div>
+                  </form>
+                  <p style="margin-top: 20px">--Founder 3--</p>
+                   <form class="form">
+                      <div class="form-group1">
+                        <label for="nameField">Full Name</label>
+                        <input type="text" class="form-control" id="nameField"placeholder="Your Full Name" />
+                      </div>
+                      <div class="form-group1">
+                        <label for="emailField">Facebook</label>
+                          <input type="email" class="form-control" id="emailField" placeholder="Facebook url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Twitter</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Twitter url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Linkden</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Linkedin url" />
+                      </div>
+                  </form>
+              </div>
+               <div class="col-md-6 col2">
+                <p style="margin-top: 20px">--Founder 4--</p>
+                   <form class="form">
+                      <div class="form-group1">
+                        <label for="nameField">Full Name</label>
+                        <input type="text" class="form-control" id="nameField"placeholder="Your Full Name" />
+                      </div>
+                      <div class="form-group1">
+                        <label for="emailField">Facebook</label>
+                          <input type="email" class="form-control" id="emailField" placeholder="Facebook url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Twitter</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Twitter url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Linkden</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Linkedin url" />
+                      </div>
+                  </form>
+                  <p style="margin-top: 20px">--Founder 5--</p>
+                   <form class="form">
+                      <div class="form-group1">
+                        <label for="nameField">Full Name</label>
+                        <input type="text" class="form-control" id="nameField"placeholder="Your Full Name" />
+                      </div>
+                      <div class="form-group1">
+                        <label for="emailField">Facebook</label>
+                          <input type="email" class="form-control" id="emailField" placeholder="Facebook url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Twitter</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Twitter url" />
+                      </div>
+                      <div class="form-group1">
+                         <label for="phoneField">Linkden</label>
+                          <input type="text" class="form-control" id="phoneField"placeholder="Linkedin url" />
+                      </div>
+                  </form>
+                  <h3>Column 2</h3>
+                </div>
+              </div>
+          </div>
+          <div class="panel-footer">
+            <a href="#" class="btn btn-danger btn-sm">Agree</a>
+            <a href="#" class="btn btn-default btn-sm">Decline</a>
+        </div>
+    </div>
+    <div class="footer">
+       <p style="margin-top: -24px">Copyright Kawolegal, 2017</p>
+    </div>
+
+
+      
+
+       
+
+
+
+
+
+                             
+
+
+
+
+
+          
+     <script src="https://raw.github.com/douglascrockford/JSON-js/master/json2.js"></script>       
+  	 <script src="js/bootstrap.js"></script> 
+     
+     
+  
+ </body> 
+</html>

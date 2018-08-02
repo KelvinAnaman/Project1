@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>    
+      <meta charset="utf-8">    
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+ 
+         <title>Dashboard</title> 
+             <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+             <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
+            <link rel="stylesheet" href="richtext.min.css">
+
+             <!--[if lt IE 9]>   
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>      
+             	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    
+             <![endif]--> 
+   </head> 
+   <body>
+     <div class="navbar navbar-default ">   
+       <div class="container-fluid">        
+        <div class="navbar-header">          
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">            
+            <span class="icon-bar"></span>           
+             <span class="icon-bar"></span>            
+             <span class="icon-bar"></span>          
+          </button>          
+            <a class="navbar-brand" href="#"> <img src="images/kawolegal.png" alt="kawolegallogo"></a>       
+        </div> 
+
+              <div class="collapse navbar-collapse" id="mynavbar-content">
+                  <ul class=" navbar-nav  navbar-items">
+                     <li><a id="dashboard"href="#">Dashboard</a></li>
+                     <li><a id="startup"href="#">Add startup</a></li>
+                     <li><a id="details"href="#">Startup details</a></li>
+                  </ul>
+
+                <ul class="navbar-nav navbar-items2">
+                   <li><a id="welcome" href="#"><span>Welcome,Admin</span></a>
+                   <li><a id="logout"href="#"><span>Logout</span></a></li>
+                 </ul>
+              </div>
+            </div> 
+       
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Add startup
+                    <span class="caret"></span></button>
+                        <h3>Dashboard</h3>
+      </div>
+            <span class="glyphicon glyphicon-cog glyphiconnav"></span>
+                <span class="glyphicon gyphicon-plus glyphicon5 "></span>
+
+            <div class="well"><p>Dashboard<span class= "space" style="margin-left: 10px"> 
+             </div>
+                    
+                    <!--list group starts here-->
+              <ul class="list-group">
+                  <li class="list-group-item list-group44">Dashboard</li>
+                  <li class="list-group-item list-group2 list-group22">Add startup</li>
+                  <li class="list-group-item list-group3 list-group33 list-groupold">Startup details</li>
+              </ul>
+
+                  <span class="glyphicon glyphicon3 glyphicon-cog glyphicon6"></span>
+                  <span class="glyphicon glyphicon4 glyphicon-list-alt "></span>
+                 
+
+                   <div class="panel panel-default panelstartup panelfinal">
+              <div class="panel-heading panel-heading panel4 " style="color:white;  background:#e74646"> All Startups</div>
+                <div class="panel-body">
+                   <div class="md-form">
+                      <input class="form-control form-controlstartup form3" type="text" placeholder="Filter Startups" aria-label="Search">
+                  </div>
+                  
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Company</th>
+                        <th scope="col">Market/Industry</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Joined</th>
+                        <th scope="col">Approve</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Company Name</th>
+                        <td>Real Estate</td>
+                        <td>Lagos</td>
+                        <td>Dec 12,2016</td>
+                         <td><a href="#" class="btn btn-success"><span class="glyphicon glyphicon-ok glyph1"></span></td>
+                         <td><a href="#" class="btn btn-primary btn1"><a href="#" class="btn btn-danger btn2"><span class="glyphicon glyphicon-pencil glyph3"></span><span class="glyphicon  glyphicon-trash glyph4"></span></td>
+                      </tr>
+                      
+                      <tr>
+                        <th scope="row">Company Name</th>
+                        <td>Local Business</td>
+                        <td>Accra</td>
+                        <td>Dec 13,2016</td>
+                         <td><a href="#" class="btn btn-success"><span class="glyphicon glyphicon-ok glyph1"></span></td>
+                         <td><a href="#" class="btn btn-primary btn1"><a href="#" class="btn btn-danger btn2"><span class="glyphicon glyphicon-pencil glyph3"></span><span class="glyphicon  glyphicon-trash glyph4"></span></td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">Company Name</th>
+                        <td>Local Business</td>
+                        <td>Accra</td>
+                        <td>Dec 13,2016</td>
+                         <td><a href="#" class="btn btn-success"><span class="glyphicon glyphicon-ok glyph1"></span>
+                        </td><td><a href="#" class="btn btn-primary btn1"><a href="#" class="btn btn-danger btn2"><span class="glyphicon glyphicon-pencil glyph3"></span><span class="glyphicon  glyphicon-trash glyph4"></span></td>
+                       </tr>
+                      
+                      <tr>
+                        <th scope="row">Company Name</th>
+                        <td>E-Commerce</td>
+                        <td>Nairobi</td>
+                        <td>Dec 14,2016</td>
+                         <td><a href="#" class="btn btn-success"><span class="glyphicon glyphicon-ok glyph1"></span></td>
+                         <td><a href="#" class="btn btn-primary btn1"><a href="#" class="btn btn-danger btn2"><span class="glyphicon glyphicon-pencil glyph3"></span><span class="glyphicon  glyphicon-trash glyph4"></span>
+                         </td>
+                       
+                        
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+               
+          </div>
+          <div class="footer lastfoot">
+                 <p class="postion postionprev">Copyright Kawolegal, 2017</p>
+              </div>
+
+ 
+     <script src="https://raw.github.com/douglascrockford/JSON-js/master/json2.js"></script>       
+     <script src="js/bootstrap.js"></script> 
+     
+     
+  
+  </body> 
+</html>
